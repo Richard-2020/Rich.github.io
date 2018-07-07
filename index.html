@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>css</title>
+<meta name="viewport"content="width=device-width"></meta>
+<meta charset="UTF-8"></meta>
+<style>
+#top{
+width:99%;
+height:100px;
+border:10px solid rgba(50,190,200,1);
+background-color:rgba(50,190,200,1);
+}
+h1{
+font-size:30px;
+text-align:center;
+color:white;
+text-shadow:4px 4px 10px black;
+}
+#middle{
+width:330px;
+height:1160px;
+border:0px solid black;
+margin-left:5px;
+}
+body{
+margin:0px;
+padding:0px;
+font-family:serif;
+font-size:15px;
+}
+#image{
+height:50px;
+width:50px;
+position:relative;
+top:-80px;
+}
+#img1{
+position:relative;
+right:-118px;
+height:80px;
+width:80px;
+}
+#hone{
+text-align:center;
+}
+grey{
+background-color:grey;
+color:white;
+}
+a button{
+padding:10px 22px;
+float:right;
+margin-right:20px;
+font-size:20px;
+color:white;
+background-color:rgba(50,190,200,1);
+}
+#elem{
+height:76px;
+width:70px;
+border:1px solid black;
+}
+#elem2{
+border:1px solid black;
+height:80px;
+width:80px;
+}
+#elem3{
+border:1px solid black;
+height:80px;
+width:85px;
+}
+</style>
+</head>
+<body>
+<div id="top">
+<h1>WebSwift</h1>
+<img id="image"src="/storage/emulated/0/download/web-swift-image.png"></img>
+</div>
+<img id="img1"src="/storage/emulated/0/download/css1.jpg "></img>
+<div id="middle">
+<h2 id="hone">Introduction To CSS</h2>
+<b>CSS</b>     Stands for Cascading Style Sheet.<br>
+CSS describes how HTML elements are to be 
+displayed in paper or in other media.
+CSS can be inserted in the html document from the
+html head element , Inline the html element or using an
+external style sheet.
+<h2>CSS Syntax</h2>
+<grey>body{
+font-size:20px;
+}
+</grey>
+<br>
+In the above declaration,<b>  body</b> is the selector,<b>  font-size </b>is the
+property and <b> 20px</b> is the value.
+<br>
+<h2>Element Selectors</h2>
+You can select all p elements with this code<br>
+<div id="elem">
+p  {  <br>
+color : blue ;  <br>
+}<br>
+</div>
+This will select each and every <  p  > element found
+in a webpage.
+<br>
+<b>CSS</b> is also used to define styles for your web pages
+including the design layout and variations display for different 
+screen sizes.
+<br><br>
+<h2>The Id Selector</h2>
+In CSS the html id attribute value can be used to format 
+the element using CSS.
+<br>
+The Id uses the <b>#</b> before the selector in css .This tells the 
+browser that this is a html attribute.
+<br>
+For Example :
+<div id="elem2">
+# para{<br>
+color : red ;<br>
+}<br>
+</div>
+In HTML :
+< p  id=   "  para "  >
+<h2>The Class Selector</h2>
+<br>
+In CSS the (.) represents the class attribute in
+html.<br>
+For Example :<br>
+<div id="elem3">
+.para{<br>
+color:white;<br>
+}<br>
+</div>
+Represents this in html :
+<  p class = " para ">
+<br>
+<br>
+<a href="#"><button>NEXT</button></a>
+<br><br><br><br><br>
+</div>
+</body>
+</html>
