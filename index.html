@@ -72,6 +72,25 @@ border:1px solid black;
 height:80px;
 width:85px;
 }
+#foot{
+width:48%;
+height:70px;
+float:left;
+border:0px;
+font-size:13px;
+margin-left:0px;
+}
+#foot1{
+float:right;
+width:47%;
+float:right;
+height:70px;
+border:0px;
+font-size:13px;
+}
+div a{
+color:black;
+}
 </style>
 </head>
 <body>
@@ -80,7 +99,7 @@ width:85px;
 <img id="image"src="/storage/emulated/0/download/web-swift-image.png"></img>
 </div>
 <img id="img1"src="/storage/emulated/0/download/css1.jpg "></img>
-<div id="middle">
+<div id="middle"><hr>
 <h2 id="hone">Introduction To CSS</h2>
 <b>CSS</b>     Stands for Cascading Style Sheet.<br>
 CSS describes how HTML elements are to be 
@@ -88,21 +107,25 @@ displayed in paper or in other media.
 CSS can be inserted in the html document from the
 html head element , Inline the html element or using an
 external style sheet.
+<hr></hr>
 <h2>CSS Syntax</h2>
 <grey>body{
 font-size:20px;
 }
+<br></br>
 </grey>
 <br>
 In the above declaration,<b>  body</b> is the selector,<b>  font-size </b>is the
 property and <b> 20px</b> is the value.
-<br>
+<hr>
 <h2>Element Selectors</h2>
 You can select all p elements with this code<br>
 <div id="elem">
 p  {  <br>
 color : blue ;  <br>
-}<br>
+}
+<br>
+
 </div>
 This will select each and every <  p  > element found
 in a webpage.
@@ -110,7 +133,7 @@ in a webpage.
 <b>CSS</b> is also used to define styles for your web pages
 including the design layout and variations display for different 
 screen sizes.
-<br><br>
+<br><hr>
 <h2>The Id Selector</h2>
 In CSS the html id attribute value can be used to format 
 the element using CSS.
@@ -125,7 +148,7 @@ color : red ;<br>
 }<br>
 </div>
 In HTML :
-< p  id=   "  para "  >
+< p  id=   "  para "  ><hr></hr>
 <h2>The Class Selector</h2>
 <br>
 In CSS the (.) represents the class attribute in
@@ -134,14 +157,59 @@ For Example :<br>
 <div id="elem3">
 .para{<br>
 color:white;<br>
-}<br>
+}
 </div>
 Represents this in html :
 <  p class = " para ">
-<br>
-<br>
+<hr>
+<h2>Css Comments</h2>
+Comments are used to explain code and may help you
+edit the code at a later date.
+A single line comment in css is written with a //  
+before the comment while multiline comments are written 
+with a /* and */.
+<br></br>
+<hr></hr>
+<b><h2>Css Styles</h2></b>
+There are 3 ways to insert Css in a html document.<br></br>
+1. External stylesheet<br></br>
+2.Internal stylesheet<br></br>
+3.Inline stylesheet<br></br>
+<hr></hr>
+<h2>External Stylesheet</h2>
+With an external stylesheet,web developers can insert
+css in a html document.
+We do it with < link > element ,the href and rel attributes.<br></br>
+The < link > element links the webpage to the stylesheet<br></br>
+The href attribute is where the stylesheet is located.<br></br>
+The 'rel' attribute is the relationship between the wepbage and 
+the stylesheet.
+<hr></hr>
+<br></br>
+<h2>Internal stylesheet</h2>
+The internal stylesheet is used to style the elements of
+one webpage.The internal stylesheet is written between the html
+< head > tag using the < style > element.
+<hr>
+<br></br>
+<h2>Inline style</h2>
+The inline style is used to style single elements .
+To use the inline style , you simply put the style attribute
+to the html element you want to style.
+The style attribute can contain css property.
+<br><br>
+
 <a href="#"><button>NEXT</button></a>
-<br><br><br><br><br>
+<br><br><br><br><hr>
+<div id="foot">
+<a href="#">Services</a><br><br>
+<a href="#">Policies</a><br>
+</div>
+<div id="foot1">
+<a href="#">Terms and conditions</a><br><br>
+<a href="#">Privacy Policy</a><br>
+</div>
+<br><br>
 </div>
 </body>
 </html>
